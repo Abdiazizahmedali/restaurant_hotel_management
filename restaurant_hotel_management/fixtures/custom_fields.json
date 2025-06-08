@@ -1,0 +1,47 @@
+[
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "order_type",
+    "label": "Order Type",
+    "fieldtype": "Select",
+    "options": "Dine In\nTake Away\nDelivery\nRoom Service",
+    "insert_after": "customer",
+    "allow_in_quick_entry": 1
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "table_number",
+    "label": "Table Number",
+    "fieldtype": "Data",
+    "insert_after": "order_type",
+    "depends_on": "eval:doc.order_type=='Dine In'"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "room_number",
+    "label": "Room Number",
+    "fieldtype": "Data",
+    "insert_after": "table_number",
+    "depends_on": "eval:doc.order_type=='Room Service'"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "waiter",
+    "label": "Waiter",
+    "fieldtype": "Link",
+    "options": "Employee",
+    "insert_after": "room_number"
+  },
+  {
+    "doctype": "Custom Field",
+    "dt": "Sales Invoice",
+    "fieldname": "kitchen_notes",
+    "label": "Kitchen Notes",
+    "fieldtype": "Small Text",
+    "insert_after": "waiter"
+  }
+]

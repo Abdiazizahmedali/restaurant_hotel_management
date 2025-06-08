@@ -1,0 +1,88 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"UKPq8nG4GQ\",\"type\":\"header\",\"data\":{\"text\":\"<span class='h4'>Restaurant Management</span>\"}},{\"id\":\"_4XSNiCPJy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Restaurant Order\",\"col\":3}},{\"id\":\"1vRSBX0qRH\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Kitchen Display\",\"col\":3}},{\"id\":\"a8cIVi8oj5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waiter Display\",\"col\":3}},{\"id\":\"p0cBJq7YUq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"POS Profile\",\"col\":3}},{\"id\":\"dWUVGvHgcJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class='h4'>Reports & Analytics</span>\"}},{\"id\":\"d85LVbYrIX\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Daily Sales Summary\",\"col\":4}},{\"id\":\"kQb5KCJmEV\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Order Analysis\",\"col\":4}},{\"id\":\"NKWmjvK47q\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Waiter Performance\",\"col\":4}}]",
+ "creation": "2024-01-01 10:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "restaurant",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Restaurant Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Restaurant Order",
+   "link_name": "Restaurant Order",
+   "link_to": "Restaurant Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Kitchen Display",
+   "link_name": "Kitchen Display",
+   "link_to": "kitchen-display",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Waiter Display",
+   "link_name": "Waiter Display",
+   "link_to": "waiter-display",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-01-01 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Restaurant Hotel Management",
+ "name": "Restaurant Management",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Restaurant Order",
+   "link_to": "Restaurant Order",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "",
+   "label": "Kitchen Display",
+   "link_to": "kitchen-display",
+   "type": "Page"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "",
+   "label": "Waiter Display",
+   "link_to": "waiter-display",
+   "type": "Page"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "label": "POS Profile",
+   "link_to": "POS Profile",
+   "type": "DocType"
+  }
+ ],
+ "title": "Restaurant Management"
+}
